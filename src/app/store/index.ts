@@ -8,8 +8,7 @@ import {environment} from '../../environments/environment';
 const createLogger = require('redux-logger');
 
 export {
-  IAppState,
-  rootReducer
+  IAppState
 };
 
 export let middleware = [];
